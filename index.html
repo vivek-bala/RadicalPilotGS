@@ -74,7 +74,7 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">RADICAL-Pilot</h2>
-                    <p class="infoblurb">RADICAL-Cybertools is a suite of tools designed to support science across HPC, Grids, and Clouds. RADICAL-SAGA provides users with a simple interface to interact with the different computing environments without worrying about the low-level details of each machine. RADICAL-Pilot builds upon RADICAL-SAGA to allow the users to coordinate the execution of a large number of tasks across many resources. Ensemble Toolkit builds upon RADICAL-Pilot to provide users with a simple way to express and execute scientific workflows. Taken together, the RADICAL-Cybertools suite gives the user the ability to execute scientific workflows without the burden of interacting with different machines or manage the execution of the individual tasks.
+                    <p class="infoblurb">RADICAL-Pilot uses pilots in order to achieve the scalable execution of large numbers of tasks. A pilot is a job submitted to a machine in order to acquire exclusive use of a chunk of its resources. Once the pilot becomes active, it can execute the tasks specified by the user. Instead of having each task waiting on a machine to be executed, the user only has to wait once with a pilot! RADICAL-Pilot allows users to specify resources in the form of pilots and their tasks separately so the user can wait once and run everything.
                     </p>
                     <p>
                       <a class="btn btn-pilot" role="button" href="./try_it_out.html">Try it Online</a>
